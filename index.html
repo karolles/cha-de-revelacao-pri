@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chá de Revelação - Priscila</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="balloons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header" class="d-flex flex-column justify-content-center align-items-center">
+        <h5 style="font-size: 30px; color: #fff" class="ps-4 pe-4">
+            BEM VINDOS FAMILIARES E AMIGOS!
+        </h5>
+
+        <img src="./assets/gatinho.png" id="header-image" />
+    </div>
+
+    <div id="content" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="pt-5 ps-4 pe-4 text-center">
+            <h6 style="font-size: 28px;">
+                Temos um novo membro da família a caminho, será o <u>NICOLAS</u> ou a <u>SOFIA</u>?
+            </h6>
+
+            <h4>
+                😍
+            </h4>
+        </div>
+
+        <div class="line" style="padding-left: 40%; padding-right: 40%;"></div>
+
+        <div class="ps-4 pe-4 text-center">
+            <h6 style="font-size: 30px;">
+                Para saber o resultado basta clicar no botão abaixo.
+            </h6>
+        </div>
+
+        <div style="padding-left: 20%; padding-right: 20%;" class="line"></div>
+        <div style="padding-left: 15%; padding-right: 15%;" class="line"></div>
+        <div style="padding-left: 10%; padding-right: 10%;" class="line"></div>
+
+        <button class="mt-2 btn btn-light animate__animated animate__pulse animate__infinite animate__slow"
+            type="button" id="balloonsButton" onclick="releaseBalloons();">
+            REVELAR
+        </button>
+    </div>
+
+    <img src="assets/sofia.png" class="animate__animated animate__pulse animate__infinite animate__slow" id="modal-image" />
+
+    <script src="balloons.js"></script>
+</body>
+
+</html>
