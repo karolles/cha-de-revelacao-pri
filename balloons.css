@@ -8,7 +8,6 @@ body {
     margin: 0px;
     text-align: center;
     height: 100%;
-    overflow: hidden;
     color: #000 !important;
     font-family: typography !important;
     font-weight: bold;
@@ -111,6 +110,7 @@ body {
     color: #FFF;
     font-size: 25px;
     background-color: rgb(113, 89, 193);
+    margin-bottom: 20px;
 }
 
 .line {
